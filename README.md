@@ -1,2 +1,2 @@
-# JQUERY-
+# JQUERY
 Exercices
