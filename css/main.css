@@ -1,0 +1,174 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.jumbotron{display:none;}
+nav span.glyphicon::before{color:white;}// de preference en CCS au acs ou pas de JS
+.loading{
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(255,255,255,.8);
+	background-image:url(../img/loading.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	z-index:9999;
+}
+
+.play{
+	position:relative;
+	min-height:150px;
+}
+.play img{
+	position:absolute;
+	top:50px;
+	left:200px;
+}
+.slider{
+	display:block;
+	margin:0 auto;
+}
+.#slider2 img{
+	margin:0 auto;
+}
+#box1{background-color:#cecece;}
+#box2{background-color:#aaaaaa;}
+#box3{background-color:#cecece;}
+
+///modification du BX slider
+.bx.wrapper .bx-controls-direction a{z-index:999;} /*pour passer les flèches par dessus le menu*/
+
+#slider1 .bx-wrapper{
+	margin:0 auto;
+	text-align: center;
+	padding:50px;
+}
+#slider1 .bx-pager{
+	padding:50px;
+	margin:0 auto;
+}
+
+#slider2 .bx-wrapper{
+	margin:0 auto;
+	text-align: center;
+	border-radius:150px;
+}
+
+#slider2 .bx-wrapper img{
+	margin:0 auto;
+	background: #000;
+	padding-top:30px;
+}
+#slider2 .slider div{
+	height:280px;
+	background: #000;
+}
+#slider2 .bx-viewport{
+	border-radius:150px;
+}
+
+#scroll-to-top{
+	position:fixed;
+	right:0;
+	bottom:50px;
+	background-color:black;
+	padding:20px;
+	color:#FFF;
+}
+
+
+.top-menu{
+	width:100%;
+	background-color:darkgreen;
+	padding:20px;
+	text-align:center;
+}
+.top-menu ul{
+	margin:0;
+	font-size:26px;
+}
+.top-menu ul li{
+	display:inline-block;
+}
+.top-menu ul li a{
+	padding: 10px 30px;
+	color:white;
+	text-decoration:none;
+}
+.fixed-menu{
+	position:fixed;
+	top:50px;
+	z-index:9999;
+	padding:10px 0;
+	transition: .5s;
+}
+body{
+	padding-top:0;
+}
+
+/* ///////////////////////////////////////LightBox */
+/*
+#popup{
+	display:none;
+}
+.closePopup{
+	position:absolute;
+	top:20px;
+	right:20px;
+	color:black;
+	text-decoration:none;
+	font-size:24px;
+}
+
+#popup.open{
+	display:block;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,0,0,.7); 
+	z-index:9999;
+	padding:100px;
+}
+*/
+.innerPopup{
+	position:relative;
+	background-color:white;
+	padding:10px;
+}
+.innerPopup span{
+	color:#000;
+}
+
+
+
+#popup{
+	top:100%;
+	height:100%;
+	transition :top  1s;
+	display:block;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	background-color:rgba(0,0,0,0.7);
+	z-index:9999;
+	padding:100px;
+}
+
+.closePopup{
+	display:block;
+	position:absolute;
+	top:20px;
+	right:20px;
+	color:black;
+	text-decoration:none;
+	font-size:24px;
+}
+
+
